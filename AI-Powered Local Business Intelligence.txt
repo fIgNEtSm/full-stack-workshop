@@ -1,0 +1,5 @@
+AI-Powered Local Business Intelligence Platform
+
+Problem Statement
+
+Local businesses such as restaurants, retail stores, and service centers receive thousands of customer reviews across platforms like Google Maps, Instagram, and other social media sites, but owners rarely have the time or expertise to interpret this massive amount of unstructured feedback. As a result, important insights—such as recurring complaints, emerging trends, customer expectations, or strengths that can be leveraged—often go unnoticed. This lack of actionable understanding limits their ability to improve services, respond to issues quickly, and stay competitive in a fast-changing market. To solve this, we propose an AI-powered Local Business Intelligence Platform that automatically collects reviews from multiple sources, analyzes sentiment and key topics, and generates clear, data-driven insights and recommendations, enabling business owners to make informed decisions and enhance overall customer satisfaction.

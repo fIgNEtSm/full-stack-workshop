@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration from</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Registration Form</h1>
+    <form>
+      Name:
+      <input
+        type="text"
+        name="Username"
+        placeholder="enter the name"
+        required
+      /><br /><br />
+      Password:
+      <input
+        type="password"
+        name="Password"
+        placeholder="enter the password"
+        required
+      /><br /><br />
+      Email:
+      <input
+        type="email"
+        name="email"
+        placeholder="enter required email"
+        required
+      /><br /><br />
+      Date of Birth:
+      <input type="date" name="db" /><br /><br />
+      Gender:
+      <input type="radio" id="male" name="gender" />male
+      <input type="radio" id="female" name="gender" />female
+      <input type="radio" id="others" name="gender" />others<br /><br />
+      PhoneNumber:
+      <input
+        type="number"
+        name="PhoneNumber"
+        placeholder="enter phone number"
+      /><br /><br />
+      Languagesknown:
+      <input type="checkbox" />Telugu <input type="checkbox" />English
+      <input type="checkbox" />Hindi
+      <input type="checkbox" />Japanese<br /><br />
+      CourseEnding:
+      <input type="month" /><br /><br />
+      Selecting Course:
+      <select name="selecting">
+        <option value="Java">Java</option>
+
+        <option value="C++">C++</option>
+        <option value="Ruby">Ruby</option>
+        <option value="C">C</option>
+        <option value="Python" disabled>Python</option></select
+      ><br /><br />
+      CountryName:
+      <input
+        type="text"
+        name="country"
+        list="dropdown"
+        placeholder="select country name"
+      />
+      <datalist id="dropdown">
+        <option value="India"></option>
+        <option value="USA"></option>
+        <option value="Australia"></option>
+        <option value="UK"></option>
+        <option value="Africa"></option></datalist
+      ><br /><br />
+      ContentArea:
+      <textarea name="contentArea" placeholder="Feedback"></textarea
+      ><br /><br />
+      <input
+        type="url"
+        name="url"
+        placeholder="enter the url link"
+      /><br /><br /><br />
+      <button name="submit">submit</button>
+      <button name="cancel">cancel</button><br /><br />
+    </form>
+  </body>
+</html>
